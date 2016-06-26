@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="NoSql Database, MongoDB, Javascript, Express, Node.js, CSS, Fetch Api, HTML Templating">
+  <title>Best Game Of Thrones Character EVER?</title>
+</head>
+<body>
+  
+
+   <form action="/quotes" method="POST">
+    <input type="text" placeholder="name" name="name">
+    <input type="text" placeholder="quote" name="quote">
+    <button type="submit">Submit</button>
+  </form>
+
+  <div>
+  	<button id="update">replace Yoda quote</button>
+  </div>
+
+  <div>
+  	<button id="delete"> Delete first Darth Vadar quote </button>
+  </div>
+
+  <div class="quotes">
+  <h1>Best Game Of Thrones Character EVER?</h1>
+  <% for(var i=0; i<quotes.length; i++) {%>
+    <div class="quote">
+      <span>Name: <%= quotes[i].name %></span>
+      <span>Quote: <%= quotes[i].quote %></span>
+    </div>
+  <% } %>
+  </div>
+
+ 	<script src="main.js"></script>
+</body>
+</html>

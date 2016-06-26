@@ -1,0 +1,100 @@
+body {
+
+  background: url(Gs34gvS15.png);
+    background-position: center top;
+    background-size: initial;
+    background-size: cover;
+}
+.top-header {
+    font-family: 'Uncial Antiqua', cursive;
+	text-align: center;
+    text-transform: uppercase;
+    color: #b81f3a;
+}
+#main-form {
+	text-align: center;
+}
+.btn-danger {
+	text-transform: uppercase;
+    height: 32px;
+    background-color: #1fb89d;
+    border-color: #18937d;
+}
+.btn-danger:active:hover,
+.btn-danger:hover,
+.btn-danger:focus {
+    color: #fff;
+    background-color: #18937d;
+    border-color: #18937d;
+}
+.btn.delete {
+    background-color: #ad1000;
+    border-color: #7a0b00;
+    padding: 1px 6px;
+    color: #fff;
+}
+
+.btn.delete:active:hover,
+.btn.delete:hover,
+.btn.delete:focus { 
+    background-color: #7a0b00;
+    border-color: #7a0b00;
+    color: #fff;
+}
+
+hr {
+	margin-top: 5px;
+    margin-bottom: 5px;
+    border-top: 1px solid transparent;
+}
+._name {
+	font-weight: bold;
+}
+._reason {
+	font-style: italic;
+}
+.char-entry,
+.char-name,
+.char-reason {
+	font-size: 16px;
+}
+._entry,
+._name,
+._reason {
+	font-size: 14px;
+}
+.score-block {
+    text-align: center;
+    margin-top: 10px;
+}
+.score-board {
+    font-size: 2.5rem; 
+    font-weight: 900; 
+    color: #292929;
+}
+.entry-block {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.floating-score-block {
+    background: #transparent; 
+    position: fixed; 
+    right: 0; 
+    bottom: 0;  
+    width: 25%; 
+    padding-bottom: 30px;
+    min-width: 285px;
+  &:after {content: ""; display: block; clear: both;}
+
+}
+.floating-score {
+    font-size: 2.5rem; 
+    font-weight: 900; 
+    color: gold;   
+    text-align: center; 
+    margin: 0 0 80px;
+    display: none;
+    background: #292929;
+    padding: 5px;
+  }
